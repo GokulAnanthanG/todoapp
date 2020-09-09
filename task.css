@@ -1,0 +1,133 @@
+
+  
+ /* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgba(0, 98, 178, 0.089);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #9CC3D5FF;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 700px;
+  }
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  
+ #header{
+     background-color:  #0063B2FF;
+     border-bottom: none;
+     font-family: cursive;
+     color: white;
+     height: 85px;
+ }
+ .t1 h1{
+     margin-left: 20px;
+     margin-top: -1px;
+ }
+ #add{
+     width: 100px;
+     height: 100px;
+     background-color:  rgba(0, 98, 178, 0.685);
+     border-radius: 360px;
+     cursor: pointer;
+     outline: none;
+     border: none;
+
+ }
+ #add i{
+     color: white;
+     font-size: 30px;
+     margin-top: 35px;
+    
+ }
+  
+ #add:hover{
+    -webkit-box-shadow: -1px 0px 8px 8px rgba(156,195,213,1);
+-moz-box-shadow: -1px 0px 8px 8px rgba(156,195,213,1);
+box-shadow: -1px 0px 8px 8px rgba(156,195,213,1);
+ 
+ }
+ table td{
+      padding: 10px;
+      
+ }
+ td h1{
+     font-family: 'Times New Roman', Times, serif;
+ }
+  h4{
+     margin-top: 15px;
+ }
+ .badge-success{
+     border-radius: 360px;
+     height: 50px;
+     width: 50px;
+     background-color: rgba(0, 128, 0, 0.397);
+
+
+     -webkit-box-shadow: -1px 0px 8px 8px rgba(168,175,179,0.63);
+     -moz-box-shadow: -1px 0px 8px 8px rgba(168,175,179,0.63);
+     box-shadow: -1px 0px 8px 8px rgba(168,175,179,0.63);
+  
+     
+ }
+ .badge-warning{
+    border-radius: 360px;
+    height: 60px;
+    width: 60px;
+    background-color:rgba(255, 166, 0, 0.589);
+    -webkit-box-shadow: -1px 0px 8px 8px rgba(168,175,179,0.63);
+    -moz-box-shadow: -1px 0px 8px 8px rgba(168,175,179,0.63);
+    box-shadow: -1px 0px 8px 8px rgba(168,175,179,0.63);
+}
+
+h2{
+    font-family: cursive;
+}
+#footer{
+    font-family: cursive;
+opacity: 0.2;
+}

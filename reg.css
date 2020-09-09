@@ -1,0 +1,33 @@
+body{
+    background-image: url();
+    background-size: cover;
+    background-color: #594ef40e;
+}
+#top{
+    margin-top: 130px;
+}
+img{
+    margin-top: -30px;
+    margin-left: 30px;
+    height: 500px;
+}
+h1{
+font-family: cursive;
+color: goldenrod;
+}
+ 
+.form-control{
+    border-radius: 20px;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    color: #584EF4;
+    font-size: 20px;
+}
+#btn{
+    border-radius: 360px;
+    outline: none;
+}
+#mes{
+    color: orange;
+}
